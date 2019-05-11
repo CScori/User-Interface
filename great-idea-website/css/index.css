@@ -61,98 +61,97 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+    font-size: 25px;
+    margin: 15px 0;
 }
 
 /* Your code starts here! */
-.nav {
-	color:gray;
-	height: 150px;
-	width: auto;
-	border: blue 1px solid;
-	
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: content-box;
+  width:900px;
 }
-.nav img {
-	align: right;
-	width: 200px;
-	height: 75px;
-  margin: 20px 25px 0px 300px;
-	border: black solid 2px
+
+.header{
+  width: 100%;
+  height: 10%;
+  display: inline-block;
 }
-.nav a {
-  width: 100px;
-	height: 75px;
-	border: black solid 2px;
-  margin: 0px 50px 200px 50px;
+.nav{
+  color: gray;
+  font-size: 20px;
+  padding: 40px 50px 10px 50px;
+  width: 500px;
+  margin: 1px 0px;
 }
-.main {
-	display: inline-block;
-	color: black;
-	height: 600px;
-	padding: 10px;
-	border: solid gray 2px;
-	
+.nav a{
+  color: black;
+  margin: 0px 15px;
+  text-decoration: none;
 }
-h1 {
-	font-size: 100px;
-	height: 100px;
-  width: 450px;
-  border: 1px solid red;
-  margin: 50px;
+img.logo{
+  width: 20%;
+  height: 50px;
+}
+
+.title{
+  display: inline-block;
+  vertical-align: top;
+  height: 40%;
+  width: 95%;
+  margin: 0px 50px;
+}
+.title h1{
+  width: 25%;
+  font-size: 75px;
   text-align: center;
-  margin: 50px 0px 0px 50px;
+  padding: 0px 75px;
+  margin: 50px 0px;
 }
-button{
-  border: 1px solid pink;
-  width: 50px;
-height: 75px;
+.title button{
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
 }
-.main img {
-  height: 500px;
+.titleimg{
   width: 300px;
-  border: 1px solid green;
-  margin: 50px 0px 0px 800px;
+  height: 300px;
+  margin: 50px 0;
 }
-.top{
-	color: black;
-	height: 100px;
-	padding: 10px;
-	border-top: solid blue 2px;
-}
-.top h2{
-  font-size: 50px;
-  display: inline;
-  border: 1px solid lime;
-  margin: 200px 50px 0px 200px;
-}
-.top1{
-	color: black;
-	height: 100px;
-}
-.middle-img{
-  border: 1px solid yellow;
-  width: 1400px;
+.information{
+  border-top: black 1px solid;
   height: 200px;
-  margin: 0px 25px;
+  width: 95%;
+  display: inline-block;
+  padding: 50px 25px;
+  margin-left: 50px;
 }
-h2{
-  font-size: 50px;
-  display: inline;
-  border: 1px solid lime;
-  margin: 100px 50px 0px 200px;
+.information p{
+  width: 45%;
+  height: 100px;
 }
-.bottom1 {
-	color: black;
-	height: 100px;
+.infoimg{
+  margin: 0 50px;
+  width: 95%;
 }
-.footer{
-  height: 600px;
-  padding: 100px;
+.information2{
+  border-bottom: black 1px solid;
+  display: inline-block;
+  padding: 50px 25px;
+  margin: 0px 50px;
+}
+.information2 p{
+  width: 30%;
+  height: 100px;
 }
 .footer h2{
-  font-size: 50px;
-  margin: 20px;
-  margin: 50px;
+  margin: 50px 0px 10px 50px;
+}
+address{
+  margin: 0px 50px;
+  width: 20%;
+  letter-spacing: 2;
 }
 .copyright{
-  margin: 50px 500px;
+  margin: 50px 0px 100px 500px;
 }

@@ -77,6 +77,9 @@ h1, h2, h3, h4, h5 {
 .header{
   width: 100%;
   height: 10%;
+  position: fixed;
+  background: teal;
+  margin: 10px 0;
 }
 .nav{
   color: gray;
@@ -87,6 +90,7 @@ h1, h2, h3, h4, h5 {
   vertical-align: top;
 }
 .nav a{
+  font-family: 'gugi', sans-serif;
   color: black;
   margin: 0px 28px 0px 0px;
   text-decoration: none;
@@ -99,6 +103,7 @@ img.logo{
   margin-left: 60px;
 }
 .title{
+  margin-top: 100px;
   width: 95%;
   margin: 50px;
   vertical-align: top;

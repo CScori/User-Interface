@@ -63,6 +63,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-size: 25px;
     margin: 15px 0;
+    width: 100px;
+    display: inline-block;
+    padding-right: 325px;
 }
 
 /* Your code starts here! */
@@ -71,64 +74,66 @@ h1, h2, h3, h4, h5 {
   box-sizing: content-box;
   width:900px;
 }
-
 .header{
   width: 100%;
   height: 10%;
-  display: inline-block;
 }
 .nav{
   color: gray;
   font-size: 20px;
-  padding: 40px 50px 10px 50px;
-  width: 500px;
-  margin: 1px 0px;
+  padding: 40px 5px 10px 50px;
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
 }
 .nav a{
   color: black;
-  margin: 0px 15px;
+  margin: 0px 28px 0px 0px;
   text-decoration: none;
 }
 img.logo{
   width: 20%;
   height: 50px;
-}
-
-.title{
   display: inline-block;
-  vertical-align: top;
-  height: 40%;
+  margin: 25px 0px;
+  margin-left: 60px;
+}
+.title{
   width: 95%;
-  margin: 0px 50px;
+  margin: 50px;
+  vertical-align: top;
 }
 .title h1{
+  height: 250px;
   width: 25%;
   font-size: 75px;
   text-align: center;
   padding: 0px 75px;
-  margin: 50px 0px;
+  display: inline-block;
 }
 .title button{
   font-size: 20px;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 30px;
+  background: white;
+  border: 1px solid black;
 }
 .titleimg{
-  width: 300px;
-  height: 300px;
-  margin: 50px 0;
+  width: 320px;
+  height: 320px;
+  display: inline-block;
+  margin-left: 80px;
 }
 .information{
   border-top: black 1px solid;
-  height: 200px;
   width: 95%;
-  display: inline-block;
-  padding: 50px 25px;
   margin-left: 50px;
 }
 .information p{
-  width: 45%;
+  width: 40%;
   height: 100px;
+  display: inline-block;
+  padding-right: 80px; 
 }
 .infoimg{
   margin: 0 50px;
@@ -136,16 +141,24 @@ img.logo{
 }
 .information2{
   border-bottom: black 1px solid;
-  display: inline-block;
   padding: 50px 25px;
   margin: 0px 50px;
 }
 .information2 p{
   width: 30%;
   height: 100px;
+  display:inline-block;
+}
+.information2 h2{
+  padding-right: 180px;
 }
 .footer h2{
-  margin: 50px 0px 10px 50px;
+  margin: 25px 0px;
+  margin-left: 50px;
+}
+.footer p{
+  margin: 25px 0px;
+  margin-left: 50px;
 }
 address{
   margin: 0px 50px;
@@ -153,5 +166,5 @@ address{
   letter-spacing: 2;
 }
 .copyright{
-  margin: 50px 0px 100px 500px;
+  margin: 50px 0px 200px 500px;
 }
